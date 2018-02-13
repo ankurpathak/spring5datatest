@@ -47,7 +47,7 @@ public class Name {
 
     public static int i = 0;
 
-    public static int alternateInts[] = {0, 1};
+    public static int alternateInts[] = {0, 1, 2};
 
 
     public static String randomCollectionName(){
