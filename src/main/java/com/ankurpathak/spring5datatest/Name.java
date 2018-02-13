@@ -51,11 +51,7 @@ public class Name {
 
 
     public static String randomCollectionName(){
-        if(i ==0)
-            return "names" + alternateInts[i++];
-        else
-            return "names" + alternateInts[i--];
-
+        return "names" + alternateInts[i];
     }
 
     @Override

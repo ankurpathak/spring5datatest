@@ -14,8 +14,7 @@ public class Spring5DataTestApplication {
 	}
 }
 
-
-@Component
+//@Component
 class Spring5DataTestApplicationCmd implements CommandLineRunner{
 
 	@Autowired
@@ -24,7 +23,8 @@ class Spring5DataTestApplicationCmd implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		nameRepository.save(new Name("Ankur", "Pathak"));
+	    nameRepository.save(new Name("Ankur", "Pathak"));
+
 
 		nameRepository.save(new Name("Ashish", "Nipane"));
 
